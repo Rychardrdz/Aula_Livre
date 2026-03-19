@@ -1,80 +1,109 @@
-body{
-    background-color: #0f0f0f; /* preto moderno */
+body {
+    background-color: #0f0f0f;
+    /* preto moderno */
     padding: 40px;
     font-family: Arial, sans-serif;
 }
 
-header{
+header {
     text-align: center;
-    background-color: #c62828; /* vermelho forte */
+    background-color: #1f1f1f;
+    /* vermelho forte */
     color: white;
     border-radius: 10px;
+    padding: 17px;
 }
 
-nav a{
+nav a {
     text-align: center;
-    background-color: #ffca28; /* amarelo destaque */
-    margin: 20px;
-    color:#0f0f0f;
-    border-radius: 0px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    background-color: #c62828;
+    /* amarelo destaque */
+    margin: 60px;
+    padding: 5px;
+    color: #0f0f0f;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-article{
-    background-color: #000000; /* cinza escuro */
-    color:white;
+nav a:hover {
+    transform: translateY(-50px);
+    background: linear-gradient(45deg, #e9e8eb, #ffffff);
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.4);
+}
+
+article {
+    background-color: #000000;
+    /* cinza escuro */
+    color: white;
     margin: 20px;
     padding: 15px;
     border-radius: 20px;
 }
 
-article h3{
-    color: #ff5252; /* vermelho mais claro */
+article h3 {
+    color: #ff5252;
+    /* vermelho mais claro */
 }
 
-article:hover{
+article:hover {
     transform: scale(1.02);
     transition: 0.3s;
 }
 
-.sobre-nos{
+.sobre-nos {
+    text-align: center;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.combos {
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.avaliacao {
+    text-align: center;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.contatos {
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.faca-avaliacao {
     text-align: center;
     background-color: #2a2a2a;
     color: white;
     border-radius: 20px;
 }
 
-.combos{
-    text-align: center;
-    background-color: #1f1f1f;
-    color: white;
-    border-radius: 20px;
-}
-
-.avaliacao{
-    text-align: center;
-    background-color: #2a2a2a;
-    color:white;
-    border-radius: 20px;
-}
-
-.contatos{
-    text-align: center;
-    background-color: #1f1f1f;
-    color:white;
-    border-radius: 20px;
-}
-
-.faca-avaliacao{
-    text-align: center;
-    background-color: #2a2a2a;
-    color:white;
-    border-radius: 20px;
-}
-
-footer{
+.faca-avaliacao button {
     text-align: center;
     background-color: #c62828;
-    color:white;
+}
+
+.faca-avaliacao button:hover {
+    transform: scale(1.04s);
+    background: linear-gradient(45deg, #e9e8eb, #ffffff);
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.4);
+}
+
+footer {
+    text-align: center;
+    background-color: #c62828;
+    color: white;
     border-radius: 20px;
+    padding: 1px;
 }
